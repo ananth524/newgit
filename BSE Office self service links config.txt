@@ -1,0 +1,41 @@
+Kindly find the new commission Airtel link details.
+
+ 
+
+1 - Please share your valuable feedback through BEFS portal (https://befs.bseindia.com/CheckLogin.aspx)
+
+2 - You need to map each trader id to specific ip address or subnet mask. Please send mail to iml.techsupport@bseindia.com with details of mapping to be done.
+
+Hostname/Site Code :MPS-6707-004
+Router serial number :FGL163522AU
+Usable IP Range       :10.125.43.4 - 10.125.43.254
+Subnet Mask            :255.255.255.0
+Default Gateway        :10.125.43.2
+KLM Port Details       :MPLS
+Interface Type            :Ethernet
+Circuit Number          :13902452
+Service Provider        :Airtel
+Commission date     :19/04/21
+
+=================================
+
+Kindly find the new commission TCL link details.
+
+ Hostname/Site Code :MPS-6707-003
+Router serial number :FGL163426JJ
+Usable IP Range       :10.125.43.4 - 10.125.43.254
+Subnet Mask            :255.255.255.0
+Default Gateway        :10.125.43.1
+KLM Port Details       :MPLS
+Interface Type            :Ethernet
+Circuit Number          :091BENG6230A0016076
+Service Provider        :TCL
+Commission date     :08/04/21
+
+
+
+
+
+
+
+

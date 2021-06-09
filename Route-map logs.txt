@@ -1,0 +1,74 @@
+SW-Vikhroli-DC(config-if)#ip policy route-map
+Core-SW-Vikhroli-DC(config-if)#ip policy route-map TEST2
+Core-SW-Vikhroli-DC(config-if)#
+Feb 10 20:55:35.319 IST: PBR Nexthop: Unregister tracking for 10.223.84.33, handle: 7F91F34E1D88
+
+Feb 10 20:55:35.319 IST: PBR Nexthop Callback invoked: 7F91FC6CCA60, (10.223.84.33) tableid 65535, status: 0, type: SET NEXTHOPmap: test, sequence: 10
+
+Feb 10 20:55:35.319 IST: PBR Control Plane Notification: PBR_CP_INVALID - shut off all
+
+Feb 10 20:55:35.319 IST: Policy NextHop Inquiry: test seq: 10, type: INVALID SW_OBJ_TYPE: 0, SW_HANDLE: 0
+
+Feb 10 20:55:35.319 IST: PBR CP Notification sent: Type:INVALID, UNKNOWNSW_OBJ_TYPE: 0, SW_HANDLE: 0
+
+Feb 10 20:55:35.319 IST: PBR Nexthop Callback invoked: 7F91FC77EAF0, (10.223.84.33) tableid 0, status: 2, type: SET NEXTHOPmap: TEST2, sequence: 10
+
+Feb 10 20:55:35.319 IST: PBR Control Plane Notification: 10.223.84.33 PBR_CP_SET_NEXTHOP
+
+Feb 10 20:55:35.320 IST: Policy NextHop Inquiry: TEST2 seq: 10, type: SET NEXTHOP Nexthop: 10.223.84.33SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 20:55:35.320 IST: PBR CP Notification sent: Type:SET NEXTHOP, 10.223.84.33SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 20:55:35.320 IST: PBR Nexthop: Register tracking for 10.223.84.33, handle: 7F91F34E1D88
+
+Feb 10 20:55:35.320 IST: PBR Control Plane Notification: 10.223.84.33 PBR_CP_SET_NEXTHOP
+
+Feb 10 20:55:35.320 IST: Policy NextHop Inquiry: TEST2 seq: 10, type: SET NEXTHOP Nexthop: 10.223.84.33
+Core-SW-Vikhroli-DC(config-if)#SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 20:55:35.320 IST: PBR CP Notification sent: Type:SET NEXTHOP, 10.223.84.33SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 20:55:35.320 IST: PR-RP: Set Vlan50 policy_routemap=TEST2; cached_map=TEST2
+Core-SW-Vikhroli-DC(config-if)#
+Core-SW-Vikhroli-DC(config-if)#
+Core-SW-Vikhroli-DC(config-if)#
+Core-SW-Vikhroli-DC(config-if)#
+
+
+
+
+ore-SW-Vikhroli-DC(config-route-map)#$y-availability 10.223.84.33 1 track 7
+Core-SW-Vikhroli-DC(config-route-map)#
+Feb 10 21:04:15.172 IST: PBR Nexthop Callback invoked: 7F91FC77EAF0, (10.223.84.33) tableid 0, status: 2, type: SET NEXTHOP TRACKINGmap: TEST2, sequence: 10
+
+Feb 10 21:04:15.172 IST: PBR Control Plane Notification: 10.223.84.33 PBR_CP_SET_NEXTHOP_TRACKING
+
+Feb 10 21:04:15.172 IST: Policy NextHop Inquiry: TEST2 seq: 10, type: SET NEXTHOP TRACKING Nexthop: 10.223.84.33SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 21:04:15.172 IST: PBR CP Notification sent: Type:SET NEXTHOP TRACKING, 10.223.84.33SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 21:04:15.172 IST: PBR Nexthop: Register tracking for 10.223.84.33, tableid 0, handle: 7F91F34E1D18
+
+Feb 10 21:04:15.173 IST: PR-RP: Set Vlan50 policy_routemap=TEST2; cached_map=TEST2
+Feb 10 21:04:15.173 IST: %FMANRP_PBR-3-UNSUPPORTED_RMAP: Route-map TEST2 has unsupported options for Policy-Based Routing. It has been removed from the interface, if applied.
+Feb 10 21:04:15.173 IST: PBR Nexthop: Unregister tracking for 10.223.84.33, handle: 7F91F34E1D18
+
+Feb 10 21:04:15.173 IST: PBR Nexthop Callback invoked: 7F91FC77EAF0, (10.223.84.33) tableid 0, status: 0, type: SET NEXTHOP TRACKINGmap: TEST2, sequence: 10
+
+Feb 10 21:04:15.173 IST: PBR Control Plane Notification: 10.223.84.33 PBR_CP_SET_NEXTHOP
+
+Feb 10 21:04:15.173 IST: Policy NextHop Inquiry: TEST2 seq: 10, type: SET NEXTHOP Nexthop: 10.223.84.33SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 21:04:15.173 IST: PBR CP Notification sent: Type:SET NEXTHOP, 10.223.84.33SW_OBJ_TYPE: 20, SW_HANDLE: 7F91FBDBBC20
+
+Feb 10 21:04:15.174 IST: PBR Nexthop: Unregister tracking for 10.223.84.33, handle: 7F91F34E1D88
+
+Feb 10 21:04:15.174 IST: PBR Nexthop Callback invoked: 7F91FC77EAF0, (10.223.84.33) tableid 65535, status: 0, type: SET NEXTHOPmap: TEST2, sequence: 10
+
+Feb 10 21:04:15.174 IST: PBR Control Plane Notification: PBR_CP_INVALID - shut off all
+
+Feb 10 21:04:15.174 IST: Policy NextHop Inquiry: TEST2 seq: 10, type: INVALID SW_OBJ_TYPE: 0, SW_HANDLE: 0
+
+Feb 10 21:04:15.174 IST: PBR CP Notification sent: Type:INVALID, UNKNOWNSW_OBJ_TYPE: 0, SW_HANDLE: 0
+exi
+Core-SW-Vikhroli-DC(config)#

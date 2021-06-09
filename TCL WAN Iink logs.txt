@@ -1,0 +1,86 @@
+[6:03 PM] [centos@ip-10-69-3-64 ~]$ traceroute 172.19.12.85
+traceroute to 172.19.12.85 (172.19.12.85), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  169.254.227.5 (169.254.227.5)  0.513 ms  0.583 ms 169.254.227.1 (169.254.227.1)  0.524 ms
+ 3  169.254.227.18 (169.254.227.18)  3.606 ms  3.772 ms  3.551 ms
+ 4  ip-10-223-84-189.ap-south-1.compute.internal (10.223.84.189)  3.964 ms  3.955 ms  3.938 ms
+ 5  ip-10-71-115-89.ap-south-1.compute.internal (10.71.115.89)  6.028 ms  5.986 ms  5.966 ms
+ 6  ip-10-70-21-105.ap-south-1.compute.internal (10.70.21.105)  6.238 ms  6.042 ms  5.964 ms
+ 7  ip-10-70-10-22.ap-south-1.compute.internal (10.70.10.22)  8.072 ms  7.870 ms  8.107 ms
+ 8  ip-172-19-150-26.ap-south-1.compute.internal (172.19.150.26)  8.258 ms  8.217 ms  8.244 ms
+ 9  * * *
+
+=============================
+
+post activity
+
+[centos@ip-10-69-3-64 ~]$ traceroute 172.19.12.85
+traceroute to 172.19.12.85 (172.19.12.85), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  169.254.227.1 (169.254.227.1)  0.553 ms  0.562 ms  0.496 ms
+ 3  169.254.227.18 (169.254.227.18)  3.936 ms  3.835 ms  3.815 ms
+ 4  ip-10-223-84-190.ap-south-1.compute.internal (10.223.84.190)  4.225 ms  4.216 ms  4.327 ms
+ 5  ip-10-71-115-93.ap-south-1.compute.internal (10.71.115.93)  5.866 ms  5.861 ms  5.833 ms
+ 6  ip-10-70-21-5.ap-south-1.compute.internal (10.70.21.5)  5.830 ms  5.828 ms  5.780 ms
+ 7  ip-10-70-10-2.ap-south-1.compute.internal (10.70.10.2)  6.509 ms  6.711 ms  6.419 ms
+ 8  ip-172-19-150-18.ap-south-1.compute.internal (172.19.150.18)  6.629 ms  6.267 ms  6.457 ms
+
+==================================================================================
+
+[centos@ip-10-69-4-151 ~]$ traceroute 172.19.12.85
+traceroute to 172.19.12.85 (172.19.12.85), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  169.254.227.1 (169.254.227.1)  0.530 ms  0.516 ms 169.254.227.5 (169.254.227.5)  0.520 ms
+ 3  169.254.227.18 (169.254.227.18)  4.224 ms  4.196 ms  4.130 ms
+ 4  ip-10-223-84-125.ap-south-1.compute.internal (10.223.84.125)  4.414 ms  4.405 ms  4.394 ms
+ 5  ip-10-71-115-57.ap-south-1.compute.internal (10.71.115.57)  6.546 ms  6.370 ms  6.607 ms
+ 6  ip-10-70-21-105.ap-south-1.compute.internal (10.70.21.105)  6.339 ms  6.404 ms  6.533 ms
+ 7  ip-10-70-10-22.ap-south-1.compute.internal (10.70.10.22)  8.634 ms  8.208 ms  8.514 ms
+ 8  ip-172-19-150-26.ap-south-1.compute.internal (172.19.150.26)  8.790 ms  8.518 ms  8.737 ms
+ 9  * * *
+
+====================
+
+Post activity
+
+[centos@ip-10-69-4-151 ~]$ traceroute 172.19.12.85
+traceroute to 172.19.12.85 (172.19.12.85), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  169.254.227.1 (169.254.227.1)  0.508 ms 169.254.227.5 (169.254.227.5)  0.515 ms 169.254.227.1 (169.254.227.1)  0.525 ms
+ 3  169.254.227.18 (169.254.227.18)  4.697 ms  4.679 ms  4.771 ms
+ 4  ip-10-223-84-126.ap-south-1.compute.internal (10.223.84.126)  4.939 ms  4.921 ms  4.915 ms
+ 5  ip-10-71-115-61.ap-south-1.compute.internal (10.71.115.61)  6.079 ms  6.038 ms  6.044 ms
+ 6  ip-10-70-21-5.ap-south-1.compute.internal (10.70.21.5)  6.327 ms  6.303 ms  6.121 ms
+ 7  ip-10-70-10-2.ap-south-1.compute.internal (10.70.10.2)  6.902 ms  6.797 ms  7.055 ms
+ 8  ip-172-19-150-18.ap-south-1.compute.internal (172.19.150.18)  7.473 ms  7.273 ms  7.205 ms
+ 9  * * *
+
+================================================================
+
+[6:03 PM] [centos@ip-10-29-28-11 ~]$ traceroute 172.19.12.85
+traceroute to 172.19.12.85 (172.19.12.85), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  169.254.227.1 (169.254.227.1)  0.522 ms  0.710 ms 169.254.227.5 (169.254.227.5)  0.509 ms
+ 3  169.254.227.18 (169.254.227.18)  3.550 ms  3.547 ms  3.525 ms
+ 4  ip-10-223-84-157.ap-south-1.compute.internal (10.223.84.157)  3.967 ms  3.944 ms  3.927 ms
+ 5  ip-10-71-115-73.ap-south-1.compute.internal (10.71.115.73)  6.036 ms  6.185 ms  6.133 ms
+ 6  ip-10-70-21-105.ap-south-1.compute.internal (10.70.21.105)  6.147 ms  6.038 ms  5.989 ms
+ 7  ip-10-70-10-22.ap-south-1.compute.internal (10.70.10.22)  8.658 ms  7.962 ms  8.063 ms
+ 8  ip-172-19-150-26.ap-south-1.compute.internal (172.19.150.26)  8.451 ms  8.086 ms  8.990 ms
+==================
+Post activity
+
+[centos@ip-10-29-28-11 ~]$ traceroute 172.19.12.85
+traceroute to 172.19.12.85 (172.19.12.85), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  169.254.227.1 (169.254.227.1)  0.947 ms 169.254.227.5 (169.254.227.5)  0.642 ms  0.610 ms
+ 3  169.254.227.18 (169.254.227.18)  5.312 ms  3.884 ms  3.860 ms
+ 4  ip-10-223-84-158.ap-south-1.compute.internal (10.223.84.158)  4.362 ms  4.342 ms  4.325 ms
+ 5  ip-10-71-115-77.ap-south-1.compute.internal (10.71.115.77)  5.703 ms  5.701 ms  5.711 ms
+ 6  ip-10-70-21-5.ap-south-1.compute.internal (10.70.21.5)  5.836 ms  5.687 ms  5.663 ms
+ 7  ip-10-70-10-2.ap-south-1.compute.internal (10.70.10.2)  6.545 ms  6.891 ms  6.529 ms
+ 8  ip-172-19-150-18.ap-south-1.compute.internal (172.19.150.18)  6.792 ms  6.779 ms  6.767 ms
+ 9  * * *
+
+We noticed that multiple times link flap happened on the Airtel Exchange link .Initiated email to NSE exchange to make TCL as Primary and Airtel as Secondary.We have coordinated with the sify noc team and shifted the links as per requriement.
+
